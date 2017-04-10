@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:id="@+id/fragment_others_viewpager_layout_imageview"
+        android:tint="#5D000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp">
+
+        <TextView
+            android:id="@+id/fragment_others_viewpager_layout_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="4"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:text="Decorate Your Dream Home And We'll Tell You What Kind Of Ghost Is Haunting It"
+            android:textStyle="normal"
+            android:textSize="17dp"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/fragment_others_viewpager_layout_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="4"
+            android:layout_gravity="bottom"
+            android:textColor="#ffffff"
+            android:text="Kat Angus"
+            android:textSize="10dp"
+            android:textAlignment="textStart" />
+
+    </LinearLayout>
+</FrameLayout>
